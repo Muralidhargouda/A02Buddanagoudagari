@@ -46,24 +46,3 @@ else{
     alert("enter every field/enter only positive numbers");
 }
 }
-function reload()
-{
-	location.reload();
-
-}
-function submitfun()
-{
-	var alphaExp = /[a-zA-Z]/;
-	var num= /[0-9]/;
-	var n = document.getElementById("name").value();
-	if(name.value.match(num))
-	{
-
-	window.alert("Please enter Your name Correctly(only Characters). Thank you");
-	}
-	else if(name.value.match(alphaExp))
-	{
-	window.alert("Thank you: "+n+ "! I'll get back to u soon.");
-	}
-
-	}
